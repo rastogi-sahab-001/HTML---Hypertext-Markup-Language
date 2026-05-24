@@ -1,0 +1,1 @@
+alert("Heading, paragraph and anchor tags");
