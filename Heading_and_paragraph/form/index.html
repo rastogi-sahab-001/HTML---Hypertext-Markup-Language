@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tags</title>
+</head>
+
+<body>
+    <h1>Form to apply for sigma web development course</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" name="username" placeholder="username">
+        </div>
+
+        <div>
+            <label for="password">Enter your password</label>
+            <input type="password" name="password" placeholder="password">
+        </div>
+
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</lab el>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Write comment here</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50">
+            Enter your comment here...
+            </textarea>
+        </div>
+
+        <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Cherry">Cherry</option>
+            </select>
+        </div>
+
+
+        <div>
+            <button>Click Me!</button>
+        </div>
+
+        <div>
+            <input type="submit" value="submit">
+        </div>
+
+    </form>
+</body>
+
+</html>
