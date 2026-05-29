@@ -10,8 +10,16 @@
 #name {
     color: yellow;
     background-color: red;
-    text-align: center;
+    text-align: left;
 }
 #photo{
     border:10px solid black;
+    background-color: white;
+}
+body{
+    background-color: aqua;
+}
+#web{
+    background-color: rgb(208, 53, 53);
+    color:pink;
 }
