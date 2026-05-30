@@ -29,4 +29,6 @@ body{
 }
 .heading{
     background-color: rgba(242, 132, 105, 0.521);
+    color: chartreuse;
+    text-align: center;
 }
