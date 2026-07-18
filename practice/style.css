@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* div p{
+    background-color: yellow;
+    color: red;
+} */
+/* div > p{
+     background-color: yellow;
+    color: red;
+} */
+.lorem50 + p{
+    background-color: #f48383;
+    color: cornflowerblue;
+}
+/* .lorem45 ~ p{
+    background-color: antiquewhite;
+    color: black;
+} */
